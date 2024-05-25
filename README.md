@@ -4,8 +4,12 @@ civitaiでダウンロードした`.safetensors`ファイルをdiffusersで使�
 
 ## 動作した環境
 
-- macOS 14.5
+- macOS 14.5(Apple Silicon)
 - Python 3.9.6
+- pip 24.0
+
+- Windows10
+- Python 3.12.3
 - pip 24.0
 
 ## ファイル説明
