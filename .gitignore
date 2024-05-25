@@ -1,0 +1,5 @@
+*/
+*.safetensors
+*.png
+*.jpg
+.DS_Store

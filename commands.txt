@@ -1,0 +1,23 @@
+## 変換
+
+```
+python convert.py
+```
+
+## テスト
+
+```
+python test.py
+```
+
+## パッケージ書き出し
+
+```
+pip freeze > requirements.txt
+```
+
+## パッケージインストール
+
+```
+pip install -r requirements.txt
+```
