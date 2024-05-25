@@ -2,7 +2,7 @@ from diffusers import StableDiffusionXLPipeline
 import torch
 from datetime import datetime
 
-model_path = "waiREALMIX_v70"  # コンバートしたモデルのパス
+model_path = "waiANIMIXPONYXL_v10"  # コンバートしたモデルのパス
 pipe = StableDiffusionXLPipeline.from_pretrained(
   model_path,
   torch_dtype=torch.float32,
