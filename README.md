@@ -5,18 +5,18 @@ civitaiでダウンロードした`.safetensors`ファイルをdiffusersで使�
 ## 動作した環境
 
 - macOS 14.5(Apple Silicon)
-- Python 3.9.6
-- pip 24.0
+  - Python 3.9.6
+  - pip 24.0
 
 - Windows10
-- Python 3.12.3
-- pip 24.0
+  - Python 3.12.3
+  - pip 24.0
 
 ## ファイル説明
 
 - convert.py => 変換用スクリプト
 - test.py => 変換後のモデルの動作確認用スクリプト
-- command.txt => 使いそうなコマンドをまとめた
+- commands.txt => 使いそうなコマンドをまとめた
 
 ## 使い方
 
@@ -47,3 +47,7 @@ pip install -r requirements.txt
 3. スクリプトの実行`python test.py`
 
 4. 成功した場合は`output_20230526_123456.png`のようにタイムスタンプがついたファイル名で保存される
+
+### Huggingface
+
+HuggingfaceのInference APIで使いたい場合はアップロード後にモデルカード(README.md)の作成が必要

@@ -1,9 +1,11 @@
-from diffusers import StableDiffusionXLPipeline
+from diffusers import StableDiffusionXLPipeline, AutoencoderKL
 import torch
 
 pipe = StableDiffusionXLPipeline.from_single_file(
-  "ponyDiffusionV5_v55.safetensors",
+  "AnythingXL_xl.safetensors",
 )
-pipe.save_pretrained(
-  "ponyDiffusionV5_v55",
-)
+
+folder = "AnythingXL_xl"
+pipe.save_pretrained(folder, safe_serialization=True)
+pipe = pipe.to(torch_dtype=torch.float16)
+pipe.save_pretrained(folder, safe_serialization=True, variant="fp16")

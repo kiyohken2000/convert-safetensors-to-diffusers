@@ -2,7 +2,7 @@ from diffusers import StableDiffusionXLPipeline
 import torch
 from datetime import datetime
 
-model_path = "ponyDiffusionV5_v55"  # コンバートしたモデルのパス
+model_path = "AnythingXL_xl"  # コンバートしたモデルのパス
 pipe = StableDiffusionXLPipeline.from_pretrained(
   model_path,
   torch_dtype=torch.float32,
