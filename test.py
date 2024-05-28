@@ -1,8 +1,9 @@
 from diffusers import StableDiffusionXLPipeline
 import torch
 from datetime import datetime
+from config import MODEL_NAME
 
-model_path = "AnythingXL_xl"  # コンバートしたモデルのパス
+model_path = MODEL_NAME
 pipe = StableDiffusionXLPipeline.from_pretrained(
   model_path,
   torch_dtype=torch.float32,

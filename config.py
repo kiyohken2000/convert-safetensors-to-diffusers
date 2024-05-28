@@ -1,0 +1,1 @@
+MODEL_NAME = "7thAnimeXLPonyA_v10"
