@@ -1,1 +1,1 @@
-MODEL_NAME = "peganaMERGE_v30"
+MODEL_NAME = "valiantStallion_v30"
